@@ -1,0 +1,25 @@
+body {
+    background-color: rgba(252, 217, 152, 0.3);
+    font-family: 'Nunito', sans-serif;
+}
+
+div.flex-align {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%;
+  }
+
+.img-w150 {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.menu {
+    margin-top: 15px;
+}

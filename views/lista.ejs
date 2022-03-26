@@ -1,0 +1,26 @@
+
+    <h4> Listagem de Estudantes </h4>
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>Id</th>
+            <th>Matrícula</th>
+            <th>Cpf</th>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>GitLab</th>
+            <th>Celular</th>
+            <th>Turma</th>
+        </tr>
+        <% alunos.forEach(aluno => { %>
+            <tr>
+                <td> <%= aluno.id %> </td>  
+                <td> <%= aluno.matricula %> </td>   
+                <td> <%= aluno.cpf %> </td>    
+                <td> <%= aluno.nome %> </td>
+                <td> <%= aluno.email %> </td>   
+                <td> <%= aluno.gitlab %> </td>   
+                <td> <%= aluno.celular %> </td>   
+                <td> <%= aluno.turma %> </td>   
+            </tr> 
+        <% }) %>
+    </table>
